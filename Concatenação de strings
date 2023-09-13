@@ -6,3 +6,10 @@ const cor = (prompt("insira sua cor fav:"));
 const frase = `seu nome é ${nome} sua cor fav ${cor}`
 
 alert(frase)
+------------------------------------------------------------------------------
+//Concatenação de Strings 
+const frase = prompt("insira uma frase:");
+const fraseMinuscula = frase.toLowerCase();
+console.log(fraseMinuscula);
+------------------------------------------------------------------------------
+
