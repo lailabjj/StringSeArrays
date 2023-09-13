@@ -1,0 +1,8 @@
+//Concatenação de Strings 
+const nome = (prompt("insira seu nome:"));
+
+const cor = (prompt("insira sua cor fav:"));
+
+const frase = `seu nome é ${nome} sua cor fav ${cor}`
+
+alert(frase)
