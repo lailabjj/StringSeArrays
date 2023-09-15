@@ -52,3 +52,9 @@ console.log('e. ', array)
 const valor = array[i+6]
 console.log('f. ', valor)
 //9
+----------------------------------------------------------------------------------------------
+const comidasFav = ["purê de batata ", "brócolis ", "carnes ", "fast food by pedro ", "alaminuta "]
+alert(comidasFav)
+const frase = "essas são minhas comidas favoritas "
+alert(frase + comidasFav)
+const suaComida = prompt("qual sua commida preferida?");
