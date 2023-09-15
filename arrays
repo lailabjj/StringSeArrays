@@ -1,0 +1,28 @@
+/Método toUpperCase()
+//const frase = "adoro o pedro!"
+//const fraseMaiúscula = frase.toUpperCase();
+//alert(fraseMaiúscula)
+
+//-------------------------------------------------------------------------------------------
+//const frase = prompt("insira uma nova frase:");
+//const novaFrase = frase.replaceAll("o","i")
+//alert(novaFrase)
+
+//-------------------------------------------------------------------------------------------
+//exercício 3
+//const raçasCaninas = ["Shih Tzu", "Labrador", "Pastor Alemão", "Rottweiler", "Buldogue"]
+//const usuário = prompt("digite um número de 0 a 4:");
+//alert(raçasCaninas[usuário]);
+
+//------------------------------------------------------------------------------------------
+//exercício 4
+//const valores = ["1", "2", "3", "4", "5", "6"]
+//alert(valores.length) //6
+//valores.push(7)
+//alert(valores)
+//valores.splice(3, 2) //1, 2, 3,6 e 7
+//alert(valores)
+//alert(valores.length) //5
+
+//-----------------------------------------------------------------------------------------
+
