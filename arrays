@@ -58,3 +58,52 @@ alert(comidasFav)
 const frase = "essas são minhas comidas favoritas "
 alert(frase + comidasFav)
 const suaComida = prompt("qual sua commida preferida?");
+//---------------------------------------------------------------------------------------------
+const listaDeTarefas = [];
+
+alert("insira 3 tarefas necessárias no seu dia a dia:");
+listaDeTarefas[0] = prompt ("tarefa 1:");
+listaDeTarefas[1] = prompt ("tarefa 2:");
+listaDeTarefas[2] = prompt ("tarefa 3:");
+
+console.log("suas tarefas necessárias são:");
+console.log(listaDeTarefas[0]);
+console.log(listaDeTarefas[1]);
+console.log(listaDeTarefas[2]);
+
+const tarefasRealizadas = prompt("digite o índice de uma tarefa que ele já realizou: 0, 1 ou 2 ");
+listaDeTarefas.splice(tarefasRealizadas, 1)
+
+
+
+
+console.log(listaDeTarefas);
+//--------------------------------------------------------------------------------------------
+//inserir com prompt 3 valores numéricos em um array e printar a média;
+const numeros = [];
+alert("insira 3 números:");
+
+numeros[0] = Number(prompt("numero 1"));
+numeros[1] = Number(prompt("numero 2"));
+numeros[2] = Number(prompt("numero 3"));
+
+const media = (numeros[0] + numeros[1] + numeros[2] /3);
+console.log(media);
+
+//------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
